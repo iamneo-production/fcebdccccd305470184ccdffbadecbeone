@@ -1,0 +1,10 @@
+<div style="text-align: center;">
+  <label for="age">Age:</label>
+  <input type="number" id="age" [(ngModel)]="age"><br><br>
+  <button id="button" (click)="checkAge()">Check Age Group</button>
+</div>
+<br>
+<div style="text-align: center;">
+  <p style="color: green;">The person is in the age group: {{ageGroup}}</p>
+</div>
+
